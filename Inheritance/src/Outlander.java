@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
  * @author grombor
@@ -29,7 +23,7 @@ public class Outlander extends Car {
         else if(newVelocity>=10 && newVelocity<20){
             changeGear(2);
         }
-                else if(newVelocity>0 && newVelocity<10){
+        else if(newVelocity>0 && newVelocity<10){
             changeGear(1);
         }
         else if(newVelocity>=10 && newVelocity<20){
